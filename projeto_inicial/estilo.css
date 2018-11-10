@@ -1,0 +1,32 @@
+/*
+*
+*
+Autora: Desirée Menezes
+@version: 0.1
+
+*/
+
+/* ===================== LAYOUT =======================*/
+
+/*=============== BARRA DE NAVEGAÇÃO =================*/
+.logo {
+    height: 30px;
+    width: 40px;
+    display: block;
+    background: url('imagens/logo_senac.svg.png') no-repeat;
+    background-size: contain;
+
+}
+a {
+    margin-top: 10px;
+}
+
+nav.navbar-transparente {
+    
+}
+
+
+
+/*====================== LAYOUT ======================*/
+
+
