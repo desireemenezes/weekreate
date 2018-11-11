@@ -75,17 +75,23 @@ nav.navbar-transparente {
 }
 
 
-/*====================== LAYOUT ======================*/
+/*====================== TIPOGRAFIA ======================*/
 h2 {
     font-family: 'BebasNeueRegular';
     font-weight: 500;
     font-style: normal;  
     font-size: 80px; 
     color: black;
-    
 }
 
 h3 {
     color: black;
+}
+
+/*=====================CONTAINER=========================*/
+#informacoes{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
