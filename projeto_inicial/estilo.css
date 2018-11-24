@@ -34,11 +34,10 @@ navbar-header a img {
     margin-top: -10px;
   }
 a img {
-    height: 100px;
-    width: 100%;
-    display: block;
-    background: url('imagens/logo_neon01.png') no-repeat;
-    background-size: contain;
+    height: 120px !important;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -45px;
 }
 
 .navbar-nav > li > a {
@@ -84,7 +83,7 @@ h2 {
     font-family: 'BebasNeueRegular';
     font-weight: 500;
     font-style: normal;  
-    font-size: 80px; 
+    font-size: 60px; 
     color: black;
 }
 
