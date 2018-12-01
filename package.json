@@ -1,0 +1,26 @@
+{
+  "name": "weekreate",
+  "version": "1.0.0",
+  "description": "*/",
+  "dependencies": {
+    "path": "^0.12.7",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desireemenezes/weekreate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desireemenezes/weekreate/issues"
+  },
+  "homepage": "https://github.com/desireemenezes/weekreate#readme"
+}
