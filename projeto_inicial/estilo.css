@@ -14,7 +14,7 @@ html, body, .fundo-capa {
 body {
     background: url('imagens/parede_logo.png'),
 				url('imagens/ruido.png'),
-				linear-gradient(50deg,#ff4169,#26f8dc, #8e04bc);
+				linear-gradient(30deg,#ff4169,#26f8dc, #8e04bc);
 	background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,6 +26,7 @@ body {
     display: block;
     background: url('imagens/logo_senac.svg.png') no-repeat;
     background-size: contain;
+    margin-top: -15px;
 }
 
 navbar-header a img {
@@ -115,7 +116,7 @@ p {
 #informacoes{
     background: white;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 #recursos {
 	padding-top: 20px;
@@ -123,21 +124,11 @@ p {
 	color: white;
 }
 
-.rotacionar{
-	transform: rotate(30deg);
-	-ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
-    padding-left: 80px;
-}
 /* -- rodape -- */
 footer {
 	background: #000;
 	padding: 50px 0px 20px 0px;
 	position: relative;
-}
-
-.item-rede-social{
-	float: right;
 }
 
 
@@ -152,9 +143,14 @@ footer {
 }
 
 #recursos h3 {
-	color: #9bf0e1;
+    color: #eee;
+    font-family: 'BebasNeueRegular';
+    font-weight: 300;
+    font-style: normal;  
+    font-size: 30px; 
 }
 
+/* SETAAA */
   
 .arrow,
 .arrow:before {

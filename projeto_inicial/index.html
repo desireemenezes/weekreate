@@ -21,43 +21,30 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <script>
-
-    $(document).ready(function(){
-        $('.arrow').on('click', function(event) {
-          alert('hey')
-
-          if (this.hash !== "") {
-            event.preventDefault();
-
-            var hash = this.hash;
-
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function(){
-
-          window.location.hash = hash;
+        $(document).ready(function (){
+            $("#click").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#div1").offset().top - 100
+                }, 1500);
+            });
         });
-      } 
-    });
-  });
-
     </script>
   </head>
   <body>
+    
 
     <header>  
   
       <nav class="navbar navbar-expand-md navbar-fixed-top navbar-inverse" style="padding-right: 100px; padding-bottom:12px;">
         <div class="row">
+
           <a href="index.html" class="navbar-brand navbar-left">
               <img src="imagens/logo-neon01.png">
           </a>
-          <a class="navbar-brand navbar-right" href="" style="margin-top:18px; padding-left:80px;"><strong>Inscreva-se</strong></a></li>
-          <a class="navbar-brand navbar-right" style="padding-left:80px;"href="https://www.senacrs.com.br/unidades.asp?unidade=63&gclid=Cj0KCQiAoJrfBRC0ARIsANqkS_7GNeJx0308mZ5DMfT8DjCXXp0WPPNQu_qoNT1OxgWS0zaCcnuWy5caAthdEALw_wcB">
-          <span class="logo"></span>
+          <a class="navbar-brand navbar-right" style="margin-top:18px; padding-left:80px;" href="https://www.senacrs.com.br/unidades.asp?unidade=63&gclid=Cj0KCQiAoJrfBRC0ARIsANqkS_7GNeJx0308mZ5DMfT8DjCXXp0WPPNQu_qoNT1OxgWS0zaCcnuWy5caAthdEALw_wcB">
+         <span class="logo"></span>
          </a>
        </div>
       </nav>
@@ -68,179 +55,136 @@
     <div class="fundo-capa">
       <div class="texto-capa">
       
-        <img src="imagens/logo-1.png">
-         <h1>De 27 a 28 de abril de 2019</h1><br/>
-           <div class="arrow"></div>
+        <img src="imagens/logo-1.png" class="img-responsive">
+         <h1>30 de Abril a 12 de Maio - 2019</h1><br/>
+           <div class="arrow" id="click" style="cursor: pointer"></div>
       </div>
     </div>
 
-    <!-- conteúdos-->
-    <section id="informacoes" style="border: 1px solid red">
-      <div class="container" style="border: 1px solid red">
+    <!-- conte煤dos-->
+    <section id="informacoes">
+      <div class="container" id="div1">
       
-          <div class="col-md-8">
+          <div class="col-md-12" >
 
-              <div class="row">
-                  <div class="col-md-6">
-                      <h2>Workshops</h2>
+              <div class="row" >
+
+                  <div class="col-md-4">
+                      <h2>Semana Criativa (WEEKREATE?)</h2>
                       <p>
-                          São atividades em que são convidados profissionais do mercado para executar e
-                          ensinar a tarefa da sua especialidade aos participantes, acompanhando os mesmos na
-                          realização da atividade proposta.
-                          A relação de materiais necessários completa, para realização da atividade, varia de
-                          acordo com o tema do workshop ou a proposta do palestrante, e pode ser determinada
-                          após o aceite do convidado. Mas inicialmente são necessários os seguintes materiais:<br>
-                          - projetor<br>
-                          - computador c/ internet (para o palestrante)<br>
-                          - cadeiras<br>
-                          material para realizar a atividade (o aluno deve providenciar?)
-                          Serão necessários outros materiais de acordo com o tema do workshop, que podem
-                          ser providenciado para os participantes pelo Senac ou solicitado para que os participantes
-                          tragam para participar.
-                          A duração sugerida das palestras é entre 1h e 2h.
+                        A presente proposta tem por objetivo criar uma semana de evento do curso de
+                        Produção Multimídia e demais cursos da Faculdade Senac RS. Através de diversas atividades
+                        de áreas relacionadas ao conteúdo programático do curso. Os objetivos são os mais
+                        diversos, mas abaixo podem ser listados alguns:<br>
+      
+                        - Divulgar o curso de Produção Multimídia para alunos e empresas;<br>
+                        - Apresentar a produção acadêmica dos alunos e ex-alunos;<br>
+                        - Proporcionar para os alunos uma prática real;<br>
+                        - Proporcionar para os alunos uma prática real;<br>
+                        -  Aproximar os alunos do mercado de trabalho;<br>
+                        -  Aproximar profissionais da área com o conteúdo do curso;<br>
+                        -  Criar cadastro para o CRM da unidade;<br>
+                        -  Pesquisar o interesse dos participantes do evento.<br><
+                       
+                        A partir destas sugestões, podendo ser ajustados, removidos ou adicionados novos
+                        objetivos, é muito importante que sejam inicialmente determinados, para que a organização
+                        do evento seja bem guiada. E para que os resultados do evento sejam bem cumpridos e
+                        aproveitados pelo instituição, é necessário a participação das partes interessadas
+                        (marketing, vendas, coordenação, direção, etc).
+                        Este relatório apresenta propostas iniciais que podem/devem ser ajustadas, pelos
+                        interessados, visando a viabilidade logística e financeira das mesmas. Para facilitar a
+                        compreensão, esta proposta será dividida por atividade, e as necessidades e objetivos para
+                        sua realização destas, serão incluídas como itens, visando a facilidade de análise e ajustes.
+                      </p>
+                  
+                  </div>
+
+                  <div class="col-md-4" >
+                      <h2>Palestras & Oficinas</h2>
+                      <p>
+                        É a atividade em que são convidados profissionais do mercado criativo, para falar de
+                        assuntos da sua especialidade. Os participantes do evento apenas assistem e questionam o
+                        que é trazido pelo palestrante convidado.
+                        A relação de materiais necessários completa, para realização da atividade, varia de
+                        acordo com o tema da palestra ou a proposta do palestrante, e pode ser determinada após
+                        a confirmação do convidado. Mas inicialmente são necessários os seguintes materiais:<br>
+                        - projetor;<br>
+                        - computador c/ internet (p/ palestrante);<br>
+                        - cadeiras.<br>
+                        O organizador do evento que contatar um profissional, convidando o mesmo para
+                        ser palestrante, deve citar os materiais disponíveis (listados acima) e questionar se fora
+                        desta lista proposta, o palestrante pode providenciar qualquer outro material necessário.
+                        A duração sugerida das palestras é entre 1h e 2h.
+                        As palestras ocorrerão a partir das 10h do dia 27 de abril de 2019, preferencialmente
+                        nos laboratórios do curso de Produção Multimídia do Senac (102, 103 e 801) e no auditório.
+                        Tendo como suporte, caso necessário, as salas 308 e 309.
+                        Os termas propostos para as palestras/oficinas são:<br>
+                        - música eletrônica<br>
+                        - trilha sonora / trilha para games<br>
+                        - produçào de vídeo clipe<br>
+                        - identidade visual bandas / foto<br>
+                        - efeitos práticos / maquiagem <br>
+                        - cenário / figurino<br>
+                        - animação (vídeoclipe)<br>
+                        - processo criativo para música (compositor)<br>
                       </p>
                   </div>
-                  <div class="col-md-6">
-                      <h2>Dinâmica</h2>
+
+                  <div class="col-md-4" >
+                      <h2> Workshops </h2>
                       <p>
-                        Circuito com duração de 24 horas a partir das 18h do dia 27 de abril de 2018. Será
-                        organizado um circuito em que um determinado número de bandas irá participar para
-                        produzir o seu material de divulgação. As atividades que farão parte do circuito serão:<br>
-                        - fotografia de estúdio (estúdio 101)<br>
-                        - produção de vídeo clipe (estúdio Dariano verificar)<br>
-                        - identidade visual (lab 103)<br>
-                        - estratégia, distribuição, redes sociais, etc (lab 801)<br>
-                        - geração de alternativas (801)<br>
-                        Ao término do tempo dos circuito que acontecerá às 18h do dia 28 de abril de 2018,<br>
-                        as produções dos alunos serão apresentadas no auditório (9 andar).<br>
+                        São atividades em que são convidados profissionais do mercado para executar e
+                        ensinar a tarefa da sua especialidade aos participantes, acompanhando os mesmos na
+                        realização da atividade proposta.
+                        A relação de materiais necessários completa, para realização da atividade, varia de
+                        acordo com o tema do workshop ou a proposta do palestrante, e pode ser determinada
+                        após o aceite do convidado. Mas inicialmente são necessários os seguintes materiais:<br>
+                        - projetor<br>
+                        - computador c/ internet para o palestrante<br>
+                        - cadeiras<br>
+                        material para realizar a atividade (o aluno deve providenciar?)
+                        Serão necessários outros materiais de acordo com o tema do workshop, que podem
+                        ser providenciado para os participantes pelo Senac ou solicitado para que os participantes
+                        tragam para participar.
+                        A duração sugerida das palestras é entre 1h e 2h.r).<br>
                       </p>
+                      <h2> Dinâmica </h2>
+                      <p>
+                          Circuito com duração de 24 horas a partir das 18h do dia 27 de abril de 2018. Será
+                          organizado um circuito em que um determinado número de bandas irá participar para
+                          produzir o seu material de divulgação. As atividades que farão parte do circuito serão:
+                          - fotografia de estúdio (estúdio 101)<br>
+                          - produção de vídeo clipe (estúdio Dariano verificar)<br>
+                          - identidade visual (lab 103)<br>
+                          - estratégia, distribuição, redes sociais, etc (lab 801)<br>
+                          - geração de alternativas (801)<br>
+                          Ao término do tempo dos circuito que acontecerá às 18h do dia 28 de abril de 2018,<br>
+                          as produções dos alunos serão apresentadas no auditório (9 andar).<br>
+                      </p><br><br><br>
                   </div>
               </div><!-- row-->
-              <div class="row">
-              <div class="col-md-6">
-                  <h2>Palestras & Oficinas</h2>
-                <h3>Os temas propostos são: música eletrônica</h3>
-                <p>
-                    É a atividade em que são convidados profissionais do <br> 
-                    mercado criativo,para falar deassuntos da sua especialidade.
-                    Os participantes do evento apenas assistem e questionam o
-                    que é trazido pelo palestrante convidado.A relação de materiais
-                    necessários completa, para realização da atividade, varia de acordo 
-                    com o tema da palestra ou a proposta do palestrante, e pode ser 
-                    determinada após a confirmação do convidado. Mas inicialmente são 
-                    necessários os seguintes materiais:<br>
-                    - projetor;<br>
-                    - computador c/ internet (p/ palestrante);<br>
-                    - cadeiras.<br>
-                    O organizador do evento que contatar um profissional, convidando o mesmo 
-                    paraser palestrante, deve citar os materiais disponíveis (listados acima)
-                    e questionar se fora desta lista proposta, o palestrante pode providenciar qualquer outro material necessário.
-                    A duração sugerida das palestras é entre 1h e 2h.
-                    As palestras ocorrerão a partir das 10h do dia 27 de abril de 2019, preferencialmente
-                    nos laboratórios do curso de Produção Multimídia do Senac (102, 103 e 801) e no auditório.
-                    Tendo como suporte, caso necessário, as salas 308 e 309.<br>
-                    - trilha sonora / trilha para games<br>
-                    - produçào de vídeo clipe<br>
-                    - identidade visual bandas / foto<br>
-                    - efeitos práticos / maquiagem / cenário / figurino<br>
-                    - animação (vídeoclipe)<br>
-                    - processo criativo para música (compositor)<br>
-                </p>
-            
-              </div>
-              <div class="col-md-6">
-                  <h2>Praça de Alimentação</h2>
-                      <p>
-                       - café<br>
-                       - cantina<br>
-                       - food truck<br>
-                       - gastronomia Senac<br>
-                      </p>
-              </div>
             </div>
-  
-            </div>
-            <div class="col-md-4" >
-                <h2>Semana Criativa (WEEKREATE?)</h2>
-                <h3>27 e 28 de abril de 2019</h3>
-                <p>
-                    A presente proposta tem por objetivo criar uma semana de evento do curso de
-                    Produção Multimídia e demais cursos da Faculdade Senac RS. Através de diversas atividades
-                    de áreas relacionadas ao conteúdo programático do curso. Os objetivos são os mais
-                    diversos, mas abaixo podem ser listados alguns:<br><br>
-                 
-                    - Divulgar o curso de Produção Multimídia para alunos e empresas;<br>
-                    - Apresentar a produção acadêmica dos alunos e ex-alunos;<br>
-                    - Proporcionar para os alunos uma prática real;<br>
-                    - Aproximar os alunos do mercado de trabalho;<br>
-                    - Aproximar profissionais da área com o conteúdo do curso;<br>
-                    - Criar cadastro para o CRM da unidade;<br>
-                    - Pesquisar o interesse dos participantes do evento.<br><br>
-  
-                    A partir destas sugestões, podendo ser ajustados, removidos ou adicionados novos
-                    objetivos, é muito importante que sejam inicialmente determinados, para que a organização
-                    do evento seja bem guiada. E para que os resultados do evento sejam bem cumpridos e
-                    aproveitados pelo instituição, é necessário a participação das partes interessadas
-                    (marketing, vendas, coordenação, direção, etc).
-                    Este relatório apresenta propostas iniciais que podem/devem ser ajustadas, pelos
-                    interessados, visando a viabilidade logística e financeira das mesmas. Para facilitar a
-                    compreensão, esta proposta será dividida por atividade, e as necessidades e objetivos para
-                    sua realização destas, serão incluídas como itens, visando a facilidade de análise e ajustes<br>
-                </p>
-            
-            </div>
-
       </div>
-    </section>       
+    </section>     
              
-      <!--  <a href="imagens/logo-1.png" download>
-          <img src="imagens/logo-1.png" alt="W3Schools" width="520" height="520">
-        </a>
-
-      -->
-
- 
     <section id="recursos">
         <div class="container">
           <div class="row">
-
-              <h2>Uploads de arquivos facebook:</h2>
-
-          <div class="row">
-              <div class="col-md-5" style="border: 1px solid red">
+          
+              <div class="col-md-8" style="padding-bottom: 150px;">
                 
-                <h3>Foto Perfil</h3>
-                <img src="imagens/logo-neon01.png">
-                
+                 <h3> Praça de Alimentação:</h3> 
+                  - café <br>
+                  - cantina <br>
+                  - food truck <br>
+                  - gastronomia Senac <br>
+  
+                  <h3>Apoio:</h3>
+                  RedBull
               </div>
-              <div class="col-md-7" style="border: 1px solid red">
-                
-                  <h3>Capa</h3>
-                  <img src="imagens/logo-neon01.png">
-                  
-                </div>
-          </div>
-            
-            <!-- img recursos 
-            <div class="col-md-8">
-  
-              <div class="row rotacionar">
-                
-                <div class="col-md-6">
-                  <img src="imagens/logo.png" class="img-responsive">
-                </div>
-  
-                <div class="col-md-6">
-                  <img src="imagens/logo.png" class="img-responsive">
-                </div>
-  
-              </div>
-  
-            </div>-->
-  
-          </div>
         </div>
-      </section>
+       </div>
+    </section>
 
        <!-- Rodape -->
     <footer id="rodape">
@@ -257,7 +201,7 @@
                 </div>
 
                 <div class="col-md-5" style="padding-left: 60px;">
-                    <h4 style="color: white">links uteis</h4>
+                    <h4 style="color: white">links úteis</h4>
                     <ul class="nav">
                       <li><a href="https://www.senacrs.com.br/unidades.asp?unidade=63&gclid=Cj0KCQiAoJrfBRC0ARIsANqkS_7GNeJx0308mZ5DMfT8DjCXXp0WPPNQu_qoNT1OxgWS0zaCcnuWy5caAthdEALw_wcB">Senac</a></li>
                     </ul>
@@ -272,7 +216,7 @@
   
           </div>
 
-          <div class="footer-copyright text-center py-1" style="color: white">© 2018 Copyright</div>
+          <div class="footer-copyright text-center py-1" style="color: white">@ 2018 Copyright</div>
 
       </footer>
 
